@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+}
+*{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.background-image {
+  background-image:url(./rrt1.jpg);/* Replace 'your-image-url.jpg' with the actual image URL */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%; /* Ensures the background spans the full width */
+  height: 100vh; /* Sets the height to fill the viewport */
+  position: absolute; /* Allows layering other elements on top */
+  z-index: -1; /* Ensures the background is behind other elements */
+}
+
+.menu-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+nav > div > ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 18px;
+}
+nav > div > ul > li > a {
+  color: white;
+  text-decoration: none;
+  margin-left: 28px;
+  padding: 15px;
+}
+
+nav > div > ul > li:hover > a {
+  color: crimson;
+  text-decoration: underline solid white;
+  text-underline-offset: 10px; /* Adjusts the space between the text and underline */
+  cursor: pointer;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  margin-left: 25px;
+  margin-top: 14px;
+}
+nav > div > button {
+  background-color: white;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  width: 90px;
+  margin-right: 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav > div > button:hover {
+  background-color: crimson;
+  color: white;
+  border-radius: 5px;
+}
+main {
+  display: flex;
+  /* border: 10px solid white; */
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  padding: 10px;
+  position: relative;
+}
+.login-title {
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.forget-pass {
+  color: rgb(77, 137, 197);
+  font-size: 15px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid white;
+  background-color: black;
+}
+.login-image img {
+  width: 400px;
+  opacity: 0.6;
+}
+
+.login-page {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+}
+main > div > div > p {
+  color: white;
+  position: absolute;
+  top: 53%;
+  left: 27%;
+  right: 49%;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.email {
+  padding: 10px;
+  margin: 15px;
+  width: 15rem;
+  outline: none;
+}
+.password {
+  padding: 10px;
+  display: block;
+  margin: 15px;
+  width: 15rem;
+  outline: none;
+}
+.click-login {
+  padding: 15px;
+  margin: 5px;
+  width: 15rem;
+  border: none;
+  background-color: black;
+  color: white;
+  margin-left: 35px;
+  font-family: monospace;
+  font-size: 18px;
+}
+.account {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.sign-up {
+  color: rgb(77, 137, 197);
+}
+.click-login:hover {
+  background-color: darkblue;
+  color: white;
+  cursor: pointer;
+}
+.account:hover {
+  color: crimson;
+}
+
+.forget-pass:hover {
+  color: crimson;
+  cursor: pointer;
+}
